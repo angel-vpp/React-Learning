@@ -1,0 +1,59 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyAwesomeApp > should match snapshot 1`] = `
+<div>
+  <div
+    data-testid="div-app"
+  >
+    <h1
+      data-testid="first-name-title"
+    >
+      Ángel
+    </h1>
+    <h3>
+      Vergara
+    </h3>
+    <p
+      class="mi-clase-favorita"
+    >
+      Dark Souls, Metroid, The Binding Of Isaac
+    </p>
+    <h1>
+      Activo
+    </h1>
+    <p
+      style="background-color: rgb(122, 122, 122); border-radius: 20px; padding: 10px; margin-top: 20px;"
+    >
+      {"zipCode":"ABC-123","country":"Spain"}
+    </p>
+  </div>
+</div>
+`;
+
+exports[`MyAwesomeApp > should match snapshot 2`] = `
+<div
+  data-testid="div-app"
+>
+  <h1
+    data-testid="first-name-title"
+  >
+    Ángel
+  </h1>
+  <h3>
+    Vergara
+  </h3>
+  <p
+    class="mi-clase-favorita"
+  >
+    Dark Souls, Metroid, The Binding Of Isaac
+  </p>
+  <h1>
+    Activo
+  </h1>
+  <p
+    style="background-color: rgb(122, 122, 122); border-radius: 20px; padding: 10px; margin-top: 20px;"
+  >
+    {"zipCode":"ABC-123","country":"Spain"}
+  </p>
+</div>
+`;
